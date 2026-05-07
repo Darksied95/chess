@@ -1,4 +1,3 @@
-import React from 'react';
 export function ChessStrip() {
   // 40 squares for the strip
   const squares = Array.from({
