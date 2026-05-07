@@ -45,7 +45,7 @@ export function ScheduleSection({ games }: ScheduleSectionProps) {
                         return (
                           <div
                             key={g.id}
-                            className={`flex items-center gap-3 p-2 rounded hover:bg-chess-light-green/5 transition-colors text-base border-l-2 ${isWin ? 'border-chess-light-green' : isDraw ? 'border-yellow-500/70' : 'border-transparent'}`}
+                            className={`flex items-center gap-3 p-2 rounded hover:bg-chess-light-green/5 transition-colors text-xl border-l-2 ${isWin ? 'border-chess-light-green' : isDraw ? 'border-yellow-500/70' : 'border-transparent'}`}
                           >
                             <span
                               className={`flex-1 text-right truncate ${g.result === '1-0' ? 'font-bold text-chess-light-green' : 'text-chess-cream'}`}

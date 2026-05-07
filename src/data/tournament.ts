@@ -30,11 +30,18 @@ export interface PlayerStats {
 // ─────────────────────────────────────────────────────────────
 const RESULTS: Record<number, GameResult> = {
   // Example data to show standings (uncomment to test)
-  // 0: '1-0', 1: '½-½', 2: '0-1', 3: '1-0',
-  // 4: '1-0', 5: '0-1', 6: '½-½', 7: '1-0',
+  // 0: '1-0',
+  // 1: '½-½',
+  // 2: '0-1',
+  // 3: '1-0',
+  // 4: '1-0',
+  // 5: '0-1',
+  // 6: '½-½',
+  // 7: '1-0',
 };
 
 export const PLAYERS = [
+  'GM Rajah',
   'Samuel',
   'Tomiwa',
   'ACES',
@@ -42,7 +49,6 @@ export const PLAYERS = [
   'DannyXvibes',
   'Edikan',
   'Awaji',
-  'GM Rajah',
 ];
 
 const WEEK1 = [

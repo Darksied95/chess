@@ -12,7 +12,7 @@ export function Header({ gamesPlayed, totalGames }: HeaderProps) {
         </div>
         <div>
           <h1 className="font-playfair text-3xl lg:text-4xl font-black tracking-wide text-chess-cream leading-tight">
-            Lagos Chess Invitational
+            Chess Tournament{' '}
           </h1>
           <p className="font-mono text-base lg:text-sm text-chess-light-green tracking-[0.15em] uppercase mt-1.5 font-medium">
             Round Robin · May 2026
