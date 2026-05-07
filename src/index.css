@@ -1,0 +1,31 @@
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORTS — DO NOT DELETE THIS COMMENT */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=IBM+Plex+Mono:wght@400;500;600&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORTS MUST NEVER BE DELETED OR REORDERED — DO NOT DELETE THIS COMMENT */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+body {
+  background-color: #312e2b;
+  color: #f0f0e8;
+  font-family: 'Crimson Pro', Georgia, serif;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+body::before {
+  content: '♟';
+  position: fixed;
+  right: -80px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 700px;
+  color: rgba(255, 255, 255, 0.02);
+  pointer-events: none;
+  z-index: 0;
+  line-height: 1;
+  user-select: none;
+}
