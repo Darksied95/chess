@@ -30,9 +30,9 @@ export interface PlayerStats {
 // ─────────────────────────────────────────────────────────────
 const RESULTS: Record<number, GameResult> = {
   // Example data to show standings (uncomment to test)
-  // 0: '1-0',
-  // 1: '½-½',
-  // 2: '0-1',
+  0: '0-1',
+  1: '1-0',
+  2: '1-0',
   // 3: '1-0',
   // 4: '1-0',
   // 5: '0-1',
@@ -99,13 +99,13 @@ const WEEK1 = [
 const WEEK2 = WEEK1.map((day) => day.map(([w, b]) => [b, w]));
 
 export const DAY_NAMES = [
+  'Sunday',
   'Monday',
   'Tuesday',
   'Wednesday',
   'Thursday',
   'Friday',
   'Saturday',
-  'Sunday',
 ];
 
 export function generateGames(): Game[] {

@@ -1,7 +1,11 @@
 import { type Game, DAY_NAMES } from '../data/tournament';
+
 interface ScheduleSectionProps {
   games: Game[];
 }
+
+const GAME_TIMES = ['8:00 PM', '8:20 PM', '8:40 PM', '9:00 PM'];
+
 export function ScheduleSection({ games }: ScheduleSectionProps) {
   const weeks = [1, 2];
   return (
@@ -39,7 +43,8 @@ export function ScheduleSection({ games }: ScheduleSectionProps) {
                     </div>
 
                     <div className="p-3 flex flex-col gap-1.5">
-                      {dayGames.map((g) => {
+                      {dayGames.map((g, i) => {
+                        const gameTime = GAME_TIMES[i] ?? '';
                         const isWin = g.result === '1-0' || g.result === '0-1';
                         const isDraw = g.result === '½-½';
                         return (
@@ -47,6 +52,10 @@ export function ScheduleSection({ games }: ScheduleSectionProps) {
                             key={g.id}
                             className={`flex items-center gap-3 p-2 rounded hover:bg-chess-light-green/5 transition-colors text-xl border-l-2 ${isWin ? 'border-chess-light-green' : isDraw ? 'border-yellow-500/70' : 'border-transparent'}`}
                           >
+                            <span className="font-mono text-xs text-chess-muted w-16 shrink-0">
+                              {gameTime}
+                            </span>
+
                             <span
                               className={`flex-1 text-right truncate ${g.result === '1-0' ? 'font-bold text-chess-light-green' : 'text-chess-cream'}`}
                             >
