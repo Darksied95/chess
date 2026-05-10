@@ -31,7 +31,7 @@ export interface PlayerStats {
 const RESULTS: Record<number, GameResult> = {
   // Example data to show standings (uncomment to test)
   0: '0-1',
-  1: '1-0',
+  1: '0-1',
   2: '1-0',
   // 3: '1-0',
   // 4: '1-0',
