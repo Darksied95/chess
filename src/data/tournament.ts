@@ -77,24 +77,25 @@ const WEEK1 = [
   [
     ['Tomiwa', 'Edikan'],
     ['GM Rajah', 'Ohgee'],
+    ['Samuel', 'Edikan'],
+    ['GM Rajah', 'ACES'],
+  ],
+
+  [
+    ['Tomiwa', 'GM Rajah'],
+    ['Edikan', 'Ohgee'],
+    ['Samuel', 'GM Rajah'],
+    ['ACES', 'Edikan'],
+  ],
+  [
+    ['DannyXvibes', 'Tomiwa'],
+    ['Ohgee', 'Awaji'],
     ['DannyXvibes', 'Samuel'],
     ['Awaji', 'ACES'],
   ],
   [
-    ['GM Rajah', 'ACES'],
-    ['Samuel', 'Edikan'],
-    ['DannyXvibes', 'Tomiwa'],
-    ['Ohgee', 'Awaji'],
-  ],
-  [
-    ['Tomiwa', 'GM Rajah'],
-    ['Edikan', 'Ohgee'],
     ['Awaji', 'Samuel'],
     ['ACES', 'DannyXvibes'],
-  ],
-  [
-    ['Samuel', 'GM Rajah'],
-    ['ACES', 'Edikan'],
     ['DannyXvibes', 'Ohgee'],
     ['Awaji', 'Tomiwa'],
   ],
