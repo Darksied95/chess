@@ -38,6 +38,10 @@ const RESULTS: Record<number, GameResult> = {
   5: '1-0',
   6: '0-1',
   7: '1-0',
+  8: '0-1',
+  9: '1-0',
+  10: '0-1',
+  11: '1-0',
 };
 
 export const PLAYERS = [
@@ -71,28 +75,28 @@ const WEEK1 = [
     ['GM Rajah', 'DannyXvibes'],
   ],
   [
-    ['DannyXvibes', 'Samuel'],
     ['Tomiwa', 'Edikan'],
-    ['Awaji', 'ACES'],
     ['GM Rajah', 'Ohgee'],
+    ['DannyXvibes', 'Samuel'],
+    ['Awaji', 'ACES'],
   ],
   [
+    ['GM Rajah', 'ACES'],
     ['Samuel', 'Edikan'],
     ['DannyXvibes', 'Tomiwa'],
     ['Ohgee', 'Awaji'],
-    ['GM Rajah', 'ACES'],
   ],
   [
-    ['Awaji', 'Samuel'],
     ['Tomiwa', 'GM Rajah'],
-    ['ACES', 'DannyXvibes'],
     ['Edikan', 'Ohgee'],
+    ['Awaji', 'Samuel'],
+    ['ACES', 'DannyXvibes'],
   ],
   [
     ['Samuel', 'GM Rajah'],
-    ['Awaji', 'Tomiwa'],
     ['ACES', 'Edikan'],
     ['DannyXvibes', 'Ohgee'],
+    ['Awaji', 'Tomiwa'],
   ],
 ];
 
