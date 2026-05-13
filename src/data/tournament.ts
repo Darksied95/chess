@@ -53,6 +53,7 @@ export const PLAYERS = [
   'DannyXvibes',
   'Edikan',
   'Awaji',
+  'Dr. Alf',
 ];
 
 const WEEK1 = [
@@ -60,43 +61,43 @@ const WEEK1 = [
     ['Samuel', 'Tomiwa'],
     ['Ohgee', 'ACES'],
     ['DannyXvibes', 'Edikan'],
-    ['GM Rajah', 'Awaji'],
+    ['GM Rajah', 'Dr. Alf'],
   ],
   [
     ['ACES', 'Samuel'],
     ['Tomiwa', 'Ohgee'],
-    ['Awaji', 'DannyXvibes'],
+    ['Dr. Alf', 'DannyXvibes'],
     ['GM Rajah', 'Edikan'],
   ],
   [
     ['Samuel', 'Ohgee'],
     ['ACES', 'Tomiwa'],
-    ['Awaji', 'Edikan'],
+    ['Dr. Alf', 'Edikan'],
     ['GM Rajah', 'DannyXvibes'],
   ],
   [
     ['Tomiwa', 'Edikan'],
     ['GM Rajah', 'Ohgee'],
+    ['Dr. Alf', 'ACES'],
     ['DannyXvibes', 'Samuel'],
-    ['Awaji', 'ACES'],
   ],
   [
     ['GM Rajah', 'ACES'],
     ['Samuel', 'Edikan'],
+    ['Ohgee', 'Dr. Alf'],
     ['DannyXvibes', 'Tomiwa'],
-    ['Ohgee', 'Awaji'],
   ],
   [
     ['Tomiwa', 'GM Rajah'],
     ['Edikan', 'Ohgee'],
-    ['Awaji', 'Samuel'],
+    ['Dr. Alf', 'Samuel'],
     ['ACES', 'DannyXvibes'],
   ],
   [
     ['Samuel', 'GM Rajah'],
     ['ACES', 'Edikan'],
+    ['Dr. Alf', 'Tomiwa'],
     ['DannyXvibes', 'Ohgee'],
-    ['Awaji', 'Tomiwa'],
   ],
 ];
 
