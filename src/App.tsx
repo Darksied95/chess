@@ -15,15 +15,12 @@ export function App() {
       <Header gamesPlayed={gamesPlayed} totalGames={totalGames} />
 
       <main className="flex-1 max-w-[1400px] w-full mx-auto p-6 lg:p-12 flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
-        <ScheduleSection
-          games={games}
-          disqualifiedPlayers={new Set(['DannyXvibes', 'Awaji'])}
-        />
+        <ScheduleSection games={games} disqualifiedPlayers={new Set(['Awaji'])} />
         <StandingsTable
           standings={standings}
           gamesPlayed={gamesPlayed}
           totalGames={totalGames}
-          disqualifiedPlayers={new Set(['DannyXvibes', 'Awaji'])}
+          disqualifiedPlayers={new Set(['Awaji'])}
         />
       </main>
     </div>
