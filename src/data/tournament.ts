@@ -42,6 +42,10 @@ const RESULTS: Record<number, GameResult> = {
   9: '1-0',
   10: '0-1',
   11: '1-0',
+  12: '0-1',
+  13: '1-0',
+  14: '1-0',
+  15: '0-1',
 };
 
 export const PLAYERS = [
